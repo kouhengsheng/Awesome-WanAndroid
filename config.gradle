@@ -1,8 +1,6 @@
 ext {
-
     android = [
-            compileSdkVersion       : 27,
-            buildToolsVersion       : "27.0.3",
+            compileSdkVersion       : 28,
             minSdkVersion           : 21,
             targetSdkVersion        : 27,
             versionCode             : 9,
@@ -109,7 +107,5 @@ ext {
             "shadows-support-v4"                : "org.robolectric:shadows-support-v4:3.4-rc2",
             "shadows-multidex"                  : "org.robolectric:shadows-multidex:3.+",
             "runner"                            : "com.android.support.test:runner:1.0.2",
-
     ]
-
 }
